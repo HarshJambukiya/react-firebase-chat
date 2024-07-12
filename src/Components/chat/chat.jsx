@@ -13,6 +13,7 @@ const Chat = () => {
 
   return (
     <div className="chat">
+      
       <div className="top">
         <div className="user">
           <img src="./avatar.png" alt="" />
@@ -27,7 +28,80 @@ const Chat = () => {
           <img src="./info.png" alt="" />
         </div>
       </div>
-      <div className="center"></div>
+
+      <div className="center">
+        <div className="message ">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+              commodi illum voluptas. Atque minima, dignissimos, ad dolores at
+              ab officia totam quibusdam repellendus, explicabo doloribus
+              debitis molestias vitae nesciunt fugit!
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <img src="https://images.pexels.com/photos/19155212/pexels-photo-19155212/free-photo-of-roof-on-a-yellow-building.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+              commodi illum voluptas. Atque minima, dignissimos, ad dolores at
+              ab officia totam quibusdam repellendus, explicabo doloribus
+              debitis molestias vitae nesciunt fugit!
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message ">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+              commodi illum voluptas. Atque minima, dignissimos, ad dolores at
+              ab officia totam quibusdam repellendus, explicabo doloribus
+              debitis molestias vitae nesciunt fugit!
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+              commodi illum voluptas. Atque minima, dignissimos, ad dolores at
+              ab officia totam quibusdam repellendus, explicabo doloribus
+              debitis molestias vitae nesciunt fugit!
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message ">
+          <img src="./avatar.png" alt="" />
+          <div className="texts">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+              commodi illum voluptas. Atque minima, dignissimos, ad dolores at
+              ab officia totam quibusdam repellendus, explicabo doloribus
+              debitis molestias vitae nesciunt fugit!
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+              commodi illum voluptas. Atque minima, dignissimos, ad dolores at
+              ab officia totam quibusdam repellendus, explicabo doloribus
+              debitis molestias vitae nesciunt fugit!
+            </p>
+            <span>1 min ago</span>
+          </div>
+        </div>
+      </div>
+
       <div className="bottom">
         <div className="icons">
           <img src="./img.png" alt="" />
