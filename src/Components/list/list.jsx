@@ -6,8 +6,8 @@ import Userinfo from "./userinfo/userinfo";
 
 const List = () => {
   return <div className="list">
-    <ChatList/>
     <Userinfo/>
+    <ChatList/>
     
   </div>;
 };
